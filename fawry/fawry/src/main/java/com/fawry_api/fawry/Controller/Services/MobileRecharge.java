@@ -15,9 +15,6 @@ public class MobileRecharge extends Services {
         return "Mobile recharge";
     }
 
-//    @Override
-//    public void getinfo() {}
-
     public MobileRecharge get_service(int Type){
       Service_Factory Ser=new Service_creator();
         return Ser.Creator_M(Type);

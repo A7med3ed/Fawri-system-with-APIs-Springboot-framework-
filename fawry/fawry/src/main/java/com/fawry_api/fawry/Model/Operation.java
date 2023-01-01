@@ -6,6 +6,7 @@ public class Operation {
     int id;
     double amount;
     String serviceName;
+
     public Operation(double amount,String userName,String serviceName,boolean flag){
         this.amount = amount;
         this.userName = userName;

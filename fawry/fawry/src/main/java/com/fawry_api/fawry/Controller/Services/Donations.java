@@ -15,16 +15,12 @@ public class Donations extends Services {
     public String getServiceName() {
         return "Donations";
     }
-
-//    public void getinfo() {}
-
     public  Donations get_service(int donationType){
        Service_Factory Ser=new Service_creator();
         return Ser.Creator_D(donationType);
 
 
    }
-
     @Override
     public double getServiceprice(){
 

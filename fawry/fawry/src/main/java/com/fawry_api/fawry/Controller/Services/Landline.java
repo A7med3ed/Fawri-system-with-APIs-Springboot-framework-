@@ -16,9 +16,6 @@ public class Landline extends Services {
     public String getServiceName() {
         return "Landline";
     }
-
-//    public void getinfo() {}
-
     public Landline get_service(int receiptType){
         Service_Factory Ser=new Service_creator();
         return Ser.Creator_L(receiptType);

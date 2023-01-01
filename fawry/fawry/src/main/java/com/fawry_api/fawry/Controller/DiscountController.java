@@ -24,7 +24,6 @@ public class DiscountController {
             discount.setDiscount("Overall",discountValue);
             return discount;
         }
-
 }
 
 

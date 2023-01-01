@@ -1,7 +1,7 @@
 package com.fawry_api.fawry.Model;
 
 import com.fawry_api.fawry.Controller.Observers.Observers;
-import com.fawry_api.fawry.View.Payment.Wallet;
+import com.fawry_api.fawry.Model.Payment.Wallet;
 
 import java.util.ArrayList;
 

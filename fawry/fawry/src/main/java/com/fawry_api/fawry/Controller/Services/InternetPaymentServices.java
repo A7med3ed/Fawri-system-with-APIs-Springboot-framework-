@@ -6,7 +6,6 @@ import com.fawry_api.fawry.Controller.Factory.Service_creator;
 public class InternetPaymentServices extends Services {
 
    public static double discountValue = 0.0;
-//    public void getinfo() {}
 
     public InternetPaymentServices get_service(int Type){
         Service_Factory Ser=new Service_creator();
